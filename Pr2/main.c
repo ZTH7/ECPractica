@@ -14,8 +14,6 @@ int main(void)
 
     P1DIR |= BIT0;
 
-    //PMM_unlockLPM5();
-
     while (1)
     {
         P1OUT ^= BIT0;
